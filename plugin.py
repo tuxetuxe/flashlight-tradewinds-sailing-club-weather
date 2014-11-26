@@ -21,7 +21,7 @@ def results(fields, original_query):
 	
 	
 	return {
-		"title": "Treadwinds Weather",
+		"title": "Tradewinds Weather",
 		"run_args": [noaa_url],
 		"html": html,
 		"webview_links_open_in_browser": True
