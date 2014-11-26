@@ -1,0 +1,7 @@
+{
+	"name": "treadwindsSailingClubWeather",
+	"displayName": "Treadwinds Sailing Club weather",
+	"description":"A simple way to check the weather in Treadwinds Sailing Club",
+	"examples": ["sailing", "treadwinds"],
+	"categories":["Weather"]
+}
