@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <style>
+        html, body, body > div {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+            line-height: 1.2;
+        }
+        body > div {
+            display: table;
+        }
+        
+        #color-setting{
+            display: none;
+        }
+        .dark-mode{
+            -webkit-filter: invert(100%);
+            filter: invert(100%);
+        }
+        .dark-mode img {
+            -webkit-filter: invert(100%);
+            filter: invert(100%);
+        }
+    </style>
+
+</head>
+<body class="light-mode">
+    <div id="results">
+        <h2>NOAA1</h2><p>[NOAAForecast]</p>
+        <h2>Live cam</h2><img src="[liveCamUrl]" width="100%"/>
+    </div>
+</body>
+</html>
